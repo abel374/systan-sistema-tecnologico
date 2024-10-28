@@ -265,6 +265,11 @@ nav .close-icon {
 .footer p {
     margin-top: 10px;
     color: white;
+    justify-content: space-around;
+}
+.footer .container .links img{
+   border-radius: 10px;
+    background-color: white;
 }
 
 /* Pagina sobre */
