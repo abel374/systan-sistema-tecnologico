@@ -555,6 +555,7 @@ nav .close-icon {
    .contacto-info .right-side{
     margin-bottom: 30px;
    }
+
 }
 @media (max-width:500px) {
     .banner .banner-text h1{
@@ -563,18 +564,21 @@ nav .close-icon {
     .faca-mais .faca-mais-text h3{
         font-size: 40px;
     }
+  
+    
 }
 
 /* cookies */
 .cookies-msg{
-    width: 80%;
+    width: 30%;
     background-color: #fff;
     position: fixed;
     bottom: 5%;
-    left: 50%;
+    left: 16%;
     transform: translate(-50%);
     border-radius: 15px;
     display: none;
+    flex-wrap: wrap;
 }
 .cookies-msg.mostrar{
     display: block;
@@ -582,7 +586,7 @@ nav .close-icon {
 .cookies-msg .cookies-txt{
     display: flex;
     align-items: center;
-    text-align: justify;
+    text-align:left;
     padding: 20px;
 }
 .cookies-msg .cookies-btn{
@@ -597,6 +601,7 @@ nav .close-icon {
     transition: 0.2s;
     border: none;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 .cookies-msg .cookies-btn button:hover{
     transform: scale(0.9);
