@@ -170,10 +170,17 @@ nav .close-icon {
 .depoimentos h3 {
     text-align: center;
 }
+.depoimentos h5{
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
 
 .depoimentos p {
     margin-bottom: 20px;
     text-align: center;
+    font-size: 14;
 }
 
 .cards {
@@ -302,10 +309,12 @@ nav .close-icon {
 /* Pagina serviços */
 .servicos h3 {
     text-align: center;
+   
 }
 
 .servicos .container>p {
     text-align: center;
+    font-size: 20px;
 }
 
 .servicos .rows-cards {
@@ -580,12 +589,14 @@ nav .close-icon {
     margin-left: 30px;
 }
 .cookies-msg .cookies-btn button{
-    background-color: #000;
+    background-color: #4f9cf9;
     color: #fff;
     font-weight: 18px;
     padding: 10px 40px;
     cursor: pointer;
     transition: 0.2s;
+    border: none;
+    border-radius: 10px;
 }
 .cookies-msg .cookies-btn button:hover{
     transform: scale(0.9);
