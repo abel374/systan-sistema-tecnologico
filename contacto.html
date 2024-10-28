@@ -72,12 +72,12 @@
                     </div>
                 </div>
                 <div class="right-side">
-                    <form action="">
-                        <input type="text" placeholder="Nome" required>
-                        <input type="email" placeholder="E-mail" required>
-                        <input type="text" placeholder="Assunto" required>
-                        <textarea cols="30" placeholder="Sua Mensagem" required></textarea>
-                        <button class="btn">Enviar Mensagem</button>
+                    <form>
+                        <input type="text" class="name" placeholder="Nome">
+                        <input type="text" class="email" placeholder="Email">
+                        <input type="text" class="country" placeholder="Assunto">
+                        <textarea class="message" placeholder="A Sua Mensagem"></textarea>
+                        <button class="btn" type="button" onclick="sendwhatsapp();">Enviar via WhatsApp</button>
                     </form>
                 </div>
             </div>
@@ -89,17 +89,18 @@
     <!-- footer -->
     <footer class="footer">
         <div class="container">
-            <div class="Links">
-                <a href="#"> <i class="fa fa-facebook"></i></a>
-                <a href="#"> <i class="fa fa-instagram"></i></a>
-                <a href="#"> <i class="fa fa-github"></i></a>
-                <a href="#"> <i class="fa fa-linkdin"></i></a>
+            <div class="links">
+                <a href="https://facebook.com/SystecAngo" target="_blank"><img src="img/facebook.png" alt=""></a>
+                <a href=" https://github.com/abel374" target="_blank"><img src="img/github.png" alt=""></a>
+                <a href="https://wa.me/+244947875307 " target="_blank"><img src="img/whatsapp.png" alt=""></a>
+                <a href="#"><img src="img/instagram.png" alt=""></a>
             </div>
             <p>Desenvolvido por Systan Sistema Tecnológico</p>
         </div>
     </footer>
     <!-- end footer -->
     <script src="js/main.js"></script>
+    <script src="js/whatsapp.js"></script>
 </body>
 
 </html>
